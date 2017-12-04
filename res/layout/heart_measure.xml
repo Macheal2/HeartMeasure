@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<SurfaceView
+		android:id="@+id/preview"
+    	android:layout_width="1dp"
+      	android:layout_height="1dp"
+      	android:layout_marginLeft="50dip"
+      	android:layout_marginRight="50dip" />
+
+	<LinearLayout
+    	android:id="@+id/measure_layout"
+      	android:layout_width="match_parent"
+      	android:layout_height="350dp"
+      	android:background="@color/blue"
+      	android:orientation="vertical" >
+	
+		<RelativeLayout android:id="@+id/top_layout"
+	      	android:layout_width="match_parent"
+    	  	android:layout_height="wrap_content"
+      		android:layout_alignParentTop="true"
+      		android:layout_alignParentRight="true" >
+      	
+			<Button android:id="@+id/btn_back"
+				android:layout_width="40dip"
+				android:layout_height="40dip"
+				android:layout_alignParentLeft="true"
+				android:background="@drawable/btn_back"
+				android:layout_margin="15dip"
+				android:textColor="@color/text_color"
+				/>
+		
+			<Button android:id="@+id/btn_settings"
+				android:layout_width="40dip"
+				android:layout_height="40dip"
+				android:layout_alignParentRight="true"
+				android:background="@drawable/btn_settings"
+				android:layout_margin="15dip"
+				android:textColor="@color/text_color"
+				/>
+
+			<TextView android:id="@+id/tv_title"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+		    	android:layout_centerInParent="true"
+		    	android:layout_margin="15dip"
+			    android:text="@string/app_title"
+			    android:textSize="18dip"
+			    android:textColor="@color/text_color"
+		    	/>
+	  	</RelativeLayout>
+	  	
+		<FrameLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="25dip"
+		    >
+			<com.magcomm.anim.MultiScrollNumber
+				android:id="@+id/scroll_number"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"/>
+			<com.magcomm.anim.CircleView
+				android:id="@+id/anim_circle"
+				android:layout_width="200dp"
+				android:layout_height="200dp"
+				android:layout_gravity="center"/>
+			
+			<TextView android:id="@+id/min"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="right|center_vertical"
+			    android:text="@string/min"
+			    android:layout_marginRight="112dip"
+			    android:paddingTop="10dip"
+			    android:textColor="@color/text_color"
+			    android:textSize="15dip"
+			    />
+		</FrameLayout>
+      	
+  	    <RelativeLayout android:id="@+id/heartlayout" 
+  	        android:layout_width="match_parent"
+  	        android:layout_height="wrap_content"
+  	        >
+  	        <Button android:id="@+id/measure_btn"
+  	            android:layout_width="120dip"
+  	            android:layout_height="wrap_content"
+  	            android:layout_centerHorizontal="true"
+  	            android:layout_alignParentBottom="true"
+  	            android:layout_margin="15dip"
+  	            android:text="@string/start_measure"
+  	            android:textColor="@color/text_color"
+  	            android:background="@drawable/btn_measure"
+  	            />
+  	    </RelativeLayout>
+
+  	</LinearLayout>
+  	
+	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_below="@id/measure_layout"
+        >
+    	<android.support.v4.view.ViewPager
+			android:id="@+id/pager"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1">
+    	    <android.support.v4.view.PagerTitleStrip 
+				android:id="@+id/pagertitle"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top"/>
+    	</android.support.v4.view.ViewPager>
+	</LinearLayout>
+
+	<!-- <LinearLayout android:layout_below="@id/measure_layout"
+		android:layout_width="match_parent"
+	    android:layout_height="200dp"
+		android:orientation="vertical" >
+		<TextView
+    		android:id="@+id/text"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="50dip"
+    		android:layout_weight="1"
+    		android:text="显示" >
+		</TextView>
+		<TextView  android:id="@+id/text1"
+	    	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+	    	android:layout_marginLeft="50dip"
+    		android:layout_weight="1"
+    		android:text="显示" >
+		</TextView>
+		<TextView
+	    	android:id="@+id/text2"
+	    	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="50dip"
+	    	android:layout_weight="1"
+    		android:text="显示" >
+		</TextView>
+	</LinearLayout> -->
+</RelativeLayout>

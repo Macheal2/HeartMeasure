@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="@string/tips_one"
+        android:textSize="@dimen/text_size_heart"
+        android:textColor="@color/dialog_textcolor"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="@string/tips_two"
+        android:textSize="@dimen/text_size_heart"
+        android:textColor="@color/dialog_textcolor"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="@string/tips_three"
+        android:textSize="@dimen/text_size_heart"
+        android:textColor="@color/dialog_textcolor"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        />
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dialog_beats_tip"
+        android:scaleType="center"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/btn_dialog"
+            android:layout_width="65dip"
+            android:layout_height="40dip"
+            android:background="@null"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size_dialog"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</LinearLayout>

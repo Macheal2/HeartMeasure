@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HeartMeasure</string>
+    <string name="app_title">HeartMeasure</string>
+    <string name="app_context">HeartMeasure</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_back">Back</string>
+
+    <string name="tips">Please use your fingertips to cover the camera lens!</string>
+    <string name="start_measure">start measure</string>
+    <string name="stop_measure">stop measure</string>
+    <string name="measure_beats_title">Your heart rate is </string>
+    <string name="average_pixel">The average pixel is </string>
+    <string name="pulse_frequency">Pulse frequency is </string>
+    
+    <string name="min">"/min"</string>
+    
+    <string name="bmp">BMP</string>
+    <string name="date">DATE</string>
+    <string name="time">TIME</string>
+    
+    <string name="tips_one">"1.Place your fingertips on the camera on the back of the phone to start testing,"</string>
+    <string name="tips_two">"2.Make sure your finger completely covers the camera,"</string>
+    <string name="tips_three">"3.Hold the gesture until the test is completed."</string>
+    
+    <string name="ok">OK</string>
+    
+    <string name="retry_again">Please measure again!</string>
+    
+    <string-array name="titles">
+        <item>Recent</item>
+        <item>Detail</item>
+    </string-array>
+    
+    <string-array name="bpms">
+        <item>bmp0</item>
+        <item>bmp1</item>
+        <item>bmp2</item>
+        <item>bmp3</item>
+        <item>bmp4</item>
+        <item>bmp5</item>
+        <item>bmp6</item>
+        <item>bmp7</item>
+    </string-array>
+    
+    <string-array name="dates">
+        <item>date0</item>
+        <item>date1</item>
+        <item>date2</item>
+        <item>date3</item>
+        <item>date4</item>
+        <item>date5</item>
+        <item>date6</item>
+        <item>date7</item>
+    </string-array>
+    
+    <string-array name="times">
+        <item>time0</item>
+        <item>time1</item>
+        <item>time2</item>
+        <item>time3</item>
+        <item>time4</item>
+        <item>time5</item>
+        <item>time6</item>
+        <item>time7</item>
+    </string-array>
+</resources>

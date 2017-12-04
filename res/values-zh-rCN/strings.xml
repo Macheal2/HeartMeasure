@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">心率</string>
+    <string name="app_title">心率</string>
+    <string name="app_context">心率</string>
+    <string name="action_settings">设置</string>
+    <string name="action_back">返回</string>
+
+    <string name="tips">"请用您的指尖盖住摄像头镜头！"</string>
+    <string name="start_measure">开始测量</string>
+    <string name="stop_measure">停止测量</string>
+    <string name="measure_beats_title">"您的心率是"</string>
+    <string name="average_pixel">"平均像素值是"</string>
+    <string name="pulse_frequency">"脉冲数是"</string>
+    
+    <string name="min">"次/分"</string>
+    <string name="bmp">心率</string>
+    <string name="date">日期</string>
+    <string name="time">时间</string>
+    
+    <string name="tips_one">"1.将您的指尖放在手机背面的摄像头上开始测试;"</string>
+    <string name="tips_two">"2.请确保手指完全遮住摄像头;"</string>
+    <string name="tips_three">"3.请保持手势，直至测试完成。"</string>
+    
+    <string name="ok">确定</string>
+    <string name="retry_again">请重新测试!</string>
+    
+    <string-array name="titles">
+        <item>最近</item>
+        <item>详情</item>
+    </string-array>
+</resources>
